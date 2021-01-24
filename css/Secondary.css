@@ -1,0 +1,84 @@
+
+/**
+*This file contains the CSS formatting for Webpages.
+*/
+html{
+  background-color: rgb(226,228,209);
+}
+/**
+* Add body margin, and width.
+*/
+body { 
+font-size: 200%;
+margin: 10px;
+width: 90%;
+margin: 15px auto;
+border: 1px blue;
+}
+ul {
+float: right;
+margin: 10px;
+}
+p {
+  margin: 10px;
+  float: left;
+}
+/**
+* Add color, margin and padding to h1.
+*/
+h1{
+color: rgb(7, 1, 41);
+padding: 10px;
+margin-left: 10px;
+font-size: 300%;
+}
+h2{
+font-size: 250%;
+padding: 10px;
+}
+/**
+* Add padding to paragraph.
+*/
+
+p{
+padding-left: 5px;
+padding-right: 5px;
+}
+/**
+* Add padding to list items
+*/
+ul{
+padding-left: 10px;
+}
+
+/**
+* Add border to image and position image.
+*/
+image{
+  border: blue 5px;
+  border: thin 10px 20px 0 20px;
+  padding-left: 10px;
+}
+/**
+* Add Navigation Menu
+*/
+#nav_menu ul{
+  list-style-type: square ;
+  padding: 1em 0;
+  text-align: center;
+  display: block;
+  border-top: oldlace solid 2px;
+  border-bottom: solid oldlace 2px;
+}
+#nav_menu ul li{
+  display: inline;
+  padding: 0 1.5em;  
+}
+#nav_menu ul li a{
+  font-weight: bold;
+  color: black;
+}
+#nav_menu ul li a.current {
+  text-decoration: none;
+}
+  

@@ -1,0 +1,66 @@
+
+/**
+*This file contains the CSS formatting for Webpages.
+*/
+html{
+  background-color: rgb(226,228,209);
+  margin: 10px;
+}
+/**
+* Add body margin, and width.
+*/
+body { 
+font-size: 200%;
+width: 725 px;
+border: 1px blue;
+}
+ul {
+float: right;
+
+}
+p {
+ 
+  float: left;
+}
+/**
+* Add color, margin and padding to h1.
+*/
+h1{
+color: rgb(7, 1, 41);
+padding: 10px;
+font-size: 300%;
+}
+h2{
+font-size: 250%;
+padding: 10px;
+}
+/**
+* Add padding to paragraph.
+*/
+
+p{
+padding-left: 5px;
+padding-right: 5px;
+}
+/**
+* Add padding to list items
+*/
+li{
+padding-left: 10px;
+}
+
+/**
+* Add border to image and position image.
+*/
+#blue_border_img {
+  position: relative;
+  border: 1px solid blue;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 4px
+}
+
+
+
+
+  
+  

@@ -1,0 +1,74 @@
+/**
+ * Add background color.
+ */
+ body {
+    background-color: rgb(173, 196, 230);
+  }
+  /**
+   * Add color, margin and padding to h1.
+   */
+  h1 {
+    color: rgb(7, 1, 41);
+    margin-left: 10px;
+    padding: 10px;
+  }
+  /**
+   * Add color, margin and padding to h2.
+   */
+  h2 {
+    color: darkslategray;
+    padding: 10px;
+  }
+  /**
+   * Add padding to left and right of paragraph.
+   */
+  p {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  /**
+   * Set width of body.
+   */
+  b {
+    width: 725px;
+  }
+  /**
+   * Add padding to list items.
+   */
+  ul {
+    padding-left: 10px;
+  }
+  /**
+   * Add border to image and position image.
+   */
+  image {
+    border: 5px double dodgerblue;
+    text-align: center;
+  }
+  /**
+  *Add Fixed-width columns
+  /**
+  
+  /**
+* Add Navigation Menu
+*/
+#nav_menu ul{
+  list-style-type: square ;
+  padding: 1em 0;
+  text-align: center;
+  display: block;
+  border-top: oldlace solid 2px;
+  border-bottom: solid oldlace 2px;
+}
+#nav_menu ul li{
+  display: inline;
+  padding: 0 1.5em;  
+}
+#nav_menu ul li a{
+  font-weight: bold;
+  color: black;
+}
+#nav_menu ul li a.current {
+  text-decoration: none;
+}
+  
