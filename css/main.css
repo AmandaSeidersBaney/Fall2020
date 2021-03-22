@@ -1,0 +1,305 @@
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 40em) {
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+}
+/**
+ * Add background color.
+ */
+ body {
+    background-color: rgba(233, 214, 170, 1);
+    margin: 2%;
+}
+/**
+* Add color, margin and padding to h1.
+*/
+h1 
+{
+    color: rgba(71, 90, 133, 1);
+    text-align: center; 
+    
+}
+/**
+* Add color, margin and padding to h2.
+*/
+h2 
+{
+    color: rgba(84, 103, 146, 1);
+    text-align: center;
+}
+h3
+{
+    color: rgba(97, 116, 159, 1);
+    text-align: center;  
+}
+h4
+{
+    color: rgba(109, 128, 171, 1);
+    text-align: center
+}
+/**
+* Add padding to left and right of paragraph.
+*/
+p 
+{
+    color: rgba(118, 137, 181, 1);
+    text-align: center;
+}
+p1 
+{
+    padding: 1%;
+    text-align: left;
+}
+p2 
+{
+    padding: 1%;
+    text-align: left;
+}
+
+/**
+* Set width of body.
+*/
+body 
+{
+    width: 100%;
+    text-align: left;
+}
+/**
+* Add padding to list items.
+*/
+ul 
+{
+    padding-left: 1%;
+}
+
+/**
+*Add padding to list items
+*/
+li 
+{
+    padding-left: 1%;
+}
+  
+/**
+* Add Navigation Menu
+*/
+#nav_menu ul
+{
+    list-style-type: square ;
+    padding: 1em 0;
+    text-align: center;
+    display: block;
+    border-top: oldlace solid 2px;
+    border-bottom: solid oldlace 2px;
+}
+#nav_menu ul li
+{
+    display: inline;
+    padding: 0 1.5em;  
+}
+#nav_menu ul li a
+{
+    font-weight: bold;
+    color: rgba(71, 90, 133, 1);
+}
+#nav_menu ul li a.current 
+{
+    text-decoration: none;
+}
+/**
+*Add image border
+*/
+#blue_border_img 
+{
+    border: 2% 
+    border-radius: 15%;
+    border-color: rgba(16, 35, 79, 1);
+    border-style: double;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+   
+}
+/**
+*Format Columns
+*/
+.column1 
+{
+    float: left;
+    width: 45%;
+    color: rgba(135, 154, 197, 1);
+}
+.column2 
+{
+    float: right;
+    width: 45%;
+    color: rgba(135, 154, 197, 1);
+}
+/* Clear floats after the columns */
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+img 
+{
+    max-width: 100%;
+    height: auto;
+}
+.list
+{
+    color: rgba(135, 154, 197, 1);
+    text-align: left;
+}
+@media (max-width: 767px) {
+
+              #mobile_menu {display: block;}
+
+}
+
+@media (min-width: 768px) 
+{
+
+     /* display the mobile menue */
+
+     #mobile_menu {display: none;}
+/**Image Caption Controls*/
+}
+figure {
+    text-align: center; 
+}
+figcaption {
+    display: block;
+    font-weight: bold;
+    font-size: 100%;
+    color: rgba(84, 103, 146, 1);
+    padding-top: 5%;
+    margin-bottom: 5%;
+    border-bottom-color: oldlace;
+}
+/**Image rollover controls*/
+.container {
+  position: relative;
+  width: 50%;
+    margin:auto
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+/**Table Format*/
+.table-all {
+    width: 100%;
+    border-color: antiquewhite;
+    border-style: double;
+    border-collapse: collapse;
+
+}
+tr, th {
+    color: rgba(118, 137, 181, 1);
+}
+/**Contact Form Formatting*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid oldlace;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: rgba(118, 137, 181, 1);
+  
+}
+
+input[type=submit] {
+  background-color: rgba(157, 138, 94, 1);
+  color: oldlace;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(157, 138, 94, 1);
+}
+input[type=reset] {
+  background-color: rgba(157, 138, 94, 1);
+  color: oldlace;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+input[type=reset]:hover {
+  background-color: rgba(157, 138, 94, 1);
+}
+.container {
+  border-radius: 5px;
+  background-color: rgba(233, 214, 170, 1);
+
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+    
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+  .col-25, .col-75, input[type=submit], input[type=reset] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+    This document displays the home page for Baney Bicycles.
+-->
+<html lang="en-US">
+<head>  
+    <meta charset="utf-8">
+    <meta name="description" content="An American company working to reestablish bicycles as a part of the American lifestyle.">
+    <meta name="keywords" content="bicycles, American made, American lifestyle, bikes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baney Bicycles | Sales</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+    <nav id="mobile_menu"></nav><!--Navigation Menu-->
+    <nav id="nav_menu">
+            <ul id="menu">
+                <li><a href="index.htm">HOME</a></li>
+                <li><a href="rental.htm">RENTAL</a></li>
+                <li><a href="sales.htm">SALES</a></li>
+                <li><a href="services.htm">SERVICES</a></li>
+                <li><a href="contact.htm">CONTACT</a></li>
+            </ul>
+    </nav>
+    <h1>Baney Bicycles</h1>
+    <!--Rollover Image-->
+     <div class="container">
+        <img src="images/Welcome.png" class="image">
+    <div class="overlay">
+        <div class="image">
+            <img src="images/Welcome2.jpg">
+        </div>
+    </div>
+    </div>
+    <!--Image caption-->
+    <figure>
+            <figcaption>Join Our Family</figcaption>
+    </figure>
+    <h2>Located near the Shawnee National Forest, Rend Lake Reservoir and Crab Orchard Lake in Southern Illinois.</h2>
+    <h3> Partnered with American Bicycle Group - Chatanooga, TN, each of our bikes are custom made and designed for a lifetime of enjoyment.</h3>
+    
+    <h4>We carry a variety of Titanium bicycles to accommodate any adventure. Each order is custom made for you based on your personal taste, personality, biking needs and budget.</h4>
+    <!--
+    Class inserted for CSS formatting
+-->
+<div class="list">
+<h5>Titanium Road Bicycles:</h5>
+    <li>T5 Ultimate - <em>from $3700.00</em></li>
+    <li>T1SL Disc - <em>from $6400.00</em></li>
+<h5>Titanium Gravel Bicycles:</h5>
+    <li>Cherohala - <em>from $4400.00</em></li>
+    <li>Gravel GRX 400 - <em>from $3400.00</em></li>
+<h5> Titanium Mountain Bicycles:</h5>
+    <li> Pinhoti - <em>from $4700.00</em></li>
+</div>
+    <!--Video-->
+<p> <video id="videoplayer" width="50%" height="50%" controls autoplay>
+       <source src="media/Bike.mp4">   </p> 
+<footer>   
+<p>Baney Bicycles,
+1223 All American Way,
+Carbondale, IL 62901,
+<a href="www.siu.edu">Baney Bicycles</a></p></footer>
+    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="dist/jquery.slicknav.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#menu').slicknav();
+});
+</script>
+</body>
+</html>
